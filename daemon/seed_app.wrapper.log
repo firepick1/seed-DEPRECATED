@@ -1,0 +1,2 @@
+2013-12-12 16:40:43 - Starting C:\Program Files\nodejs\node.exe --harmony "C:\git\seed\node_modules\node-windows\lib\wrapper.js" -f "C:\git\seed\server.js" -l "SEED_APP" -g 0.25 -w 1 -r 3 -a n
+2013-12-12 16:40:43 - Started 3980

@@ -1,0 +1,55 @@
+<!doctype html>
+
+<!--
+index.html https://github.com/firepick1/FireMote/wiki
+
+Copyright (C) 2013  Karl Lew, <karl@firepick.org>
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+-->
+
+<html lang="en" ng-app="SEED_APP">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEED_APP</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="js/exports.js"></script>
+  <script src="js/seedmodule.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script src="bootstrap/js/ui-bootstrap-0.6.0.min.js"></script>
+  <script src="bootstrap/js/ui-bootstrap-tpls-0.6.0.min.js"></script>
+    
+</head>
+<body>
+  <div ng-controller="MainCtrl">
+	  <h1>Fibonacci Numbers</h1>
+	  <div ng-repeat="fib in [1,2,3,5,8,13]">{{fib}}</div>
+	  <h1>Hello</h1>
+	  <div ng-view></div>
+  </div>
+</body>
+</html>

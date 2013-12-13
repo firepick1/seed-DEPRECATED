@@ -1,0 +1,13 @@
+19:46:22 INFO 1945 FireLog /var/log/firefuse.log
+19:46:22 INFO 1945 Initialized FireFuse 0.1
+19:46:22 INFO 1945 PID1941 UID0
+19:46:22 INFO 1945 pthread_create(&tidCamera...) ->  ok
+19:46:22 INFO 1947 firefuse_cameraThread start
+19:46:23 INFO 1945 callSystem(stty 115200 -F /dev/ttyUSB0)
+19:46:23 INFO 1945 callSystem(stty 1400:4:1cb2:a00:3:1c:7f:15:4:1:1:0:11:13:1a:0:12:f:17:16:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0 -F /dev/ttyUSB0)
+19:46:23 INFO 1945 firestep_init /dev/ttyUSB0 (open) 
+19:46:23 INFO 1945 pthread_create(firestep_reader) ->  ok
+19:46:23 INFO 1964 firestep_reader listening...
+19:46:23 INFO 1947 firepick_camera_daemon start -> 0
+
+THIS IS A SAMPLE LOG...

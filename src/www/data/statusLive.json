@@ -1,0 +1,9 @@
+{
+"head":{"angle":0,"light":false},
+"trayFeeder":{"name":"Tray Feeder", "pos":0, "posMax":300, "calibrate":false, "jog":1},
+"pcbFeeder":{"name":"PCB Feeder", "pos":0, "posMax":300, "calibrate":false, "jog":1},
+"gantry": {"name":"Gantry", "pos":500, "posMax":500, "jog":1},
+"spindleLeft":{"pos":0, "name":"Left", "side":"left", "on":true, "part":true},
+"spindleRight":{"pos":100, "name":"Right", "side":"right", "on":false, "part":false},
+"message":"FirePick Live!"
+}
